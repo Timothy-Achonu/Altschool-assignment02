@@ -53,21 +53,11 @@ function countEvenNumbers(arrayOfNumbers) {
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     fahrenheitArray = arrayOfNumbers.map( (number) => {
-          return `${Math.trunc(number * 9/5 + 32)}  F`
+          return `${Math.trunc(number * 9/5 + 32)} ℉`
     })
     return fahrenheitArray;
 }
 console.log(celsiusToFahrenheit([10,24,26]))
-// For example, to convert 26°C to °F (the temperature of a warm day):
-
-//  °F = (°C × 9/5) + 32
-
-//  °F = (26 × 9/5) + 32
-
-// °F = (46.8) + 32
-
-// °F = 78.8° F
-// assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
 
 // ========================
