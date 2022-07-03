@@ -53,7 +53,7 @@ function countEvenNumbers(arrayOfNumbers) {
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
     fahrenheitArray = arrayOfNumbers.map( (number) => {
-          return `${Math.trunc(number * 9/5 + 32)} ℉`
+          return `${Math.trunc(number * 9/5 + 32)}`
     })
     return fahrenheitArray;
 }
